@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_round.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_round.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_large.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_login_fragment.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_activity_layout.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_small.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_large.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_small.xml",
+        "source": "F:\\AndroidStudioWork\\GuruMantras\\facebook\\src\\main\\res\\layout\\messenger_button_send_blue_small.xml"
+    }
+]

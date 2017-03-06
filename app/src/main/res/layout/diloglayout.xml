@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:background="@drawable/theme"
+    >
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/close"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/appinfotextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Sample"
+        android:layout_below="@+id/close"
+        android:textColor="@color/colorforText"
+        />
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@drawable/red_button_gradient"
+        android:text="Ok"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_below="@+id/appinfotextview"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

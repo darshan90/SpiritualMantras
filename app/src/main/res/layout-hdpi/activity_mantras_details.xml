@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.dstechnologies.gurumantras.MantrasDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/mainRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/thumbimage_border"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/outside_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/mainImageView"
+            android:layout_alignLeft="@id/mainImageView"
+            android:layout_alignRight="@id/mainImageView"
+            android:layout_alignTop="@id/mainImageView"
+            android:layout_centerVertical="true"
+            android:background="@drawable/flower"
+            android:visibility="gone"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/mantranameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="name of mantra"
+            android:textColor="@color/colorforText"
+            android:textSize="15sp"
+            android:visibility="gone"
+
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/pauseButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/pause"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/footorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainRelativeLayout"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/wallpaperbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/setwallpaper"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/ringtonebutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/settone"
+            android:layout_toEndOf="@+id/wallpaperbutton"
+            android:layout_marginStart="45dp"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/share"
+            android:layout_toStartOf="@+id/infoButton"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/infoButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/infoicon"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        >
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

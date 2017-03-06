@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dstechnologies.gurumantras">
+
+    <!--<uses-sdk tools:overrideLibrary="com.roger.gifloadinglibrary" />
+
+    <manifest package="pl.droidsonroids.gif" />-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-sdk tools:overrideLibrary="dmax.dialog"></uses-sdk>
+    <application
+        android:name=".Singleton"
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+
+        >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SpiritualMantrasUIMainActivity"
+            android:label="@string/title_activity_spiritual_mantras_uimain"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".MantrasDetailsActivity"
+            android:label="@string/title_activity_mantras_details"
+            android:screenOrientation="portrait"
+            ></activity>
+
+       <!-- <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />-->
+       <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!--<provider android:authorities="com.facebook.app.FacebookContentProvider{1034624793298357}"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>-->
+        <service
+            android:name="com.dstechnologies.mediaplayer.DownloadServices"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":MyDownloadProcess1" >
+        </service>
+        <service
+            android:name="com.dstechnologies.mediaplayer.SongPlayService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":MySongProcess2" >
+        </service>
+
+        <receiver
+            android:name="com.dstechnologies.mediaplayer.AudioPlayerBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="com.example.mediaplayer.DOWNLOAD_SONG" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.example.mediaplayer.CLOSENOTI" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a3cd073bc8ad956326430d7936ce60d73a626849" />
+    </application>
+
+</manifest>

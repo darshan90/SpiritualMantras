@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Spiritual Mantras</string>
+    <string name="action_settings">Rate us</string>
+
+    <string name="swamisamarth_page_fragment">Swami samrath page</string>
+    <string name="saibaba_page_fragment">Sai baba mantra page</string>
+    <string name="ganeshatharavshirsha_page_fragment">Ganesha mantra</string>
+    <string name="shivamantra_page_fragment">Shiva mantra </string>
+
+    <string name="hdpi">hdpi layout</string>
+    <string name="facebook_app_id">1034624793298357</string>
+    <string name="title_activity_spiritual_mantras_uimain">SpiritualMantrasUIMainActivity</string>
+
+    <string-array name="titleOfMantras">
+        <item>Gayatri Mantra</item>
+        <item>Sai Mantra</item>
+        <item>Hare ram hare krishna</item>
+        <item>Om namaha shivay </item>
+        <item>Mahamritunjay mantra</item>
+        <item>Om namo bhagwate wasudevay</item>
+        <item>Ganesha Mantra</item>
+        <item>Shani Mantra</item>
+        <item>Om namo narayana</item>
+        <item>Balaji Mantra</item>
+        <item>Hanuman Mantra</item>
+        <item>Shree swami samarth mantra</item>
+        <item>Buddha Mantra</item>
+        <item>Om kalikay namaha</item>
+        <item>Hanuman chalisa</item>
+        <!--<item>Vitthala Mantra</item>
+        <item>Mahaveer Mantra</item>-->
+        <item>Shree Gurudev Datta</item>
+    </string-array>
+    <string name="title_activity_mantras_details">MantrasDetailsActivity</string>
+    <string name="aboutapp">Mantras are sacred syllables uttered by Hindus during prayers and invocations of God. Every mantra is sacred sound enforced and empowered by the power of mind. The purpose of mantras is communication with God at most personal level to seek their help and cooperation to achieve particular aims. Mantras are used by worshippers in all religions for various purpose but most commonly invocations and prayers.
+This app is developed for all religious peoples. Mantra repeated to aid concentration in meditation. This is for your daily sadhana.
+</string>
+<string name="dialog_exit_app_title"></string>
+    <string-array name="mantraDetails">
+        <item>Aum is the supreme consciousness which embodies and protect vital spiritual energies.It eliminates the sufferings and make embodies happy.Bright self luminous source that is fountainhead of creative life giving spiritual energy like sun.It is the best selection of virtues that is most befitting to human consiousness. This is destroyer of weakness,defects,flaws and imperfection. It devine virtues and strength imbibing the joy of giving.</item>
+    <item>After chanting sai mantra we feel that we are attracted to.It make possitive effect on our mind and heart and bring us nearer to us. Sai Baba is God Incarnate and the Supreme Lord.</item>
+    <item>This mantra is a spiritual call to lord. The word Hara is a form of addressing the energy of lord.It means the highest pleasure.Hare is a powerful word that directly addresses the energy of the Lord.Hara, for giving protection to the conditioned souls.By chanting this mantra anyone can be linked this reservior and get unlimited happiness.</item>
+    <item>Om is the seed mantra of all mantras.It invoked lord shiva and all his energies to bless us and lead us to the highest state of peace and meditation.shiva is the name of your true identity.</item>
+    <item>This is Great Death Conquering mantra.life restoring mantra of shiva.The maha mrityunjaya mantra have founded by rishi markendey.The mantra referring to the power furious aspect of lord shiva.Maha mrityunjaya mantra alluding lord shiva three eyes and addressed to lord shiva for warding off untimely death.The story behind it is moon was once in trouble, cursed by King Daksha. Rishi Markandeya gave the Mahamritryunjaya Mantra to daksha’s daughter,”Sati” for the life of Moon.</item>
+    <item>The chanting of Vishnu mantra regularly,is the most powerful way to please God vishnu and get his blessing.It gives peace of mind and keeps away all the evil from our life. It makes us healthy,wealthy and propsperous.</item>
+    <item>Lord Ganesha is a powerful Hindu deity who is highly revered in the Indian culture.The chanting of Ganesh mantra will take you one step closer to your aim in life and always shower Lords Ganeshas blessings upon you.Ganesh mantra is incanted for financial success and prosperity.Rinn harta is another name of Lord Ganesha which is the "Giver of wealth".The chanting of Ganesha mantra is known to activate mind and various chakras of mind.This leads to better blood circulation and therefore improved metabolic rate in the body.</item>
+    <item>Shanidev is the most feared deity in Hindu religion. He plays the role of judge in human lives. It all depend on our karmas reward or punish us.The chanting of Shani mantra brings wisdom,patience and sense of justice.Provides the immense benefit in the life of an individual by eradicating all the wealth and health problems. All the evil spirits in the life of an individual are being removed. The darkness in the life of an individual is also being removed by fulfilling all the desires and needs. The prosperity and happiness comes again in the life so that the human can live without any tension.</item>
+    <item>In Sanskrit, “Nara” can likewise allude to all human beings or living entities (Jivas). Consequently, another meaning of Narayana is Resting place for all living entities. The close association of Vishnu with water explains the usual depiction of Narayana in Hindu art as standing or sitting on an ocean. Vishnu mantra is chanted to invoke his all pervading power of benevolence and goodness.It is through Vishnu grace that righteousness is able to prevail.Daily repetition of this mantra confers infinite love, prosperity, power, glory, knowledge, and total liberation.</item>
+    <item>Lord Balaji is also famous as Govinda. Lord Balaji is very kind and helps anyone who prays to Him for help.</item>
+    <item>Chanting of Hanuman mantra increses persons resilience and he emerges victorious in every challenging situation. Hanuman mantra helps to overcome difficulties or problems one might encounter in getting a wish fullfilled. Repeated jap of hanuman mantra is believed to dispel ghosts and spirits and ward of maladies.Hanuman mantra is also used for attaining physical strength.stamina and power. Hanuman mantra japa blesses one with the qualities of courage and confidence.</item>
+    <item>Swami works where everything else has failed. Fear not I am with you swami samarth promise to his devotees. He showered material benefits and also spiritual benefits to the needy. Once a European engineer from solapur visited Swamiji with hope of having a son. He did not even ask swamiji, before that swamiji said that engineer will have son within a year. And in one year engineer had a son such was a power of great sage.</item>
+    <item>Buddham Saranam Gachaami means the supreme intellect wthin you which leads you discremination of right and wrong.Right make your life happy and leading to the state of bliss.This contains all the factors that makes other the entire animate and inanimate world happy. Live happy and let other live as in the creation every right to dharmic life. Dharma means the righteous behaviour of humans.A human must be humane but should not be embrace the charactristics behaviour of animals.</item>
+    <item>Kali mata is known as preserve of Earth , but due to her destructive powers she is also known as dark mother. The name kali means she, who is beyond time.She is consider as berserk from of Durga who is consort of Lord Shiva. Kali maa is simultaneously as the giver and destructor of life.</item>
+    <item>Lord Hanuman is well for his extreme devotion to Lord Rama.The chalisa meaning is Cleansing the mirror of my mind with dust from lotus feet of Devine Guru.It describe the unblemished glory of Rama, which bestows four fruits of Righteousness wealth , pleasure and libration.  </item>
+    <item>The protective chant of Shri Gurudev datta represent the name of shree Datta , an aspect of God,his function in the universe is alleviating distress caused due to substle bodies of ancestors.God carries out his mission in the Universe through the three major principles of God ie.Creation,Sustenance and destruction.Shree Dattas ability is derived through a combination of these major principles.  </item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4724528445028775/7286893247</string>
+</resources>
